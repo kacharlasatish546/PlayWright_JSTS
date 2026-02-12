@@ -40,3 +40,4 @@ x=Number(x)
 console.log("X value is "+x+" and Type is "+typeof(x));
 x=x/10
 console.log("X value is "+x+" and Type is "+typeof(x));
+console.log()
