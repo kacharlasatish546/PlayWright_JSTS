@@ -24,3 +24,25 @@ for (let i = 1; i <= 100; i++) {
         console.log(i);
     }
 }
+
+
+let x=10;
+switch (true) {    
+    case 5:
+        console.log("x is 5");
+        break;     
+    case 10:     
+        console.log("x is 10");     
+        break;    
+    default:     
+    console.log("x is something else"); 
+}       
+
+let browser = "Chrome";
+switch (browser.trim().toLowerCase()) {
+    case "chrome":  
+        console.log("You are using Chrome");
+        break;
+    default:
+        console.log("You are using an unsupported browser");
+} 
