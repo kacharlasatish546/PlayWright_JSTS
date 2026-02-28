@@ -6,9 +6,9 @@ console.log(sentence.toUpperCase());
 console.log(sentence.toLocaleLowerCase());
 
 let newSentence = sentence.trim().split(" ");
-console.log(newSentence); 
+console.log(newSentence);
 let result = "";
-for(let i=0;i<newSentence.length;i++){
+for (let i = 0; i < newSentence.length; i++) {
     result = result + " " + newSentence[i].charAt(0).toUpperCase() + newSentence[i].slice(1)
 }
 console.log(result);
@@ -21,7 +21,7 @@ let result2 = sentence
 console.log(result2);
 
 
-let number  = "12345.67";
+let number = "12345.67";
 console.log(typeof number); // Output: string
 let newNumber = Number(number);
 console.log(newNumber); // Output: 12345.67
@@ -43,3 +43,56 @@ console.log(str1);
 let replacedString = str1.replace("JavaScript", "Java");
 console.log(replacedString); // Output: "Hello, I am learning Java."
 
+
+
+console.log(typeof NaN); // Output: "undefined"
+
+// console.log(m);
+let m;
+console.log(m);
+
+const arr = [1, 2, 3];
+arr.push(4);
+console.log(arr);
+
+console.log(2 ** 3);
+let ab = "5" + 3;
+console.log(typeof ab);
+console.log(true + true);
+console.log(0 || 'Hello');
+console.log(true + true);
+console.log(0 ?? 'Hello');
+let some = 5;
+let sum2 = some++;
+console.log(some, sum2);
+console.log(typeof '');
+if ('0') {
+    console.log('yes');
+} else {
+    console.log('no');
+}
+
+console.log(Boolean([]));
+
+let status = 200;
+if (status === 200) {
+    console.log("OK");
+} else if (status === 404) {
+    console.log("Not Found");
+} else {
+    console.log("Other");
+}
+
+let day = 3; switch (day) {
+    case 1: console.log("Mon");
+    case 2: console.log("Tue"); 
+    case 3: console.log("Wed"); 
+    case 4: console.log("Thu"); 
+    default: console.log("Other");
+} 
+
+for (let is = 0; is < 5; is++) { 
+    if (is === 3) 
+        break; 
+    } 
+    console.log(is)
